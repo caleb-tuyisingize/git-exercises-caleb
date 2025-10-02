@@ -349,5 +349,38 @@ $
 ## Pulling Changes from Remote Repositories:
 
 ```bash 
+  
+user@LAPTOP-Q6O9PDFL MINGW64 /c/gymer/git-exercises-caleb (main)
+$ git commit -m "."
+user@LAPTOP-Q6O9PDFL MINGW64 /c/gymer/git-exercises-caleb (main)
+$ git add .
 
+user@LAPTOP-Q6O9PDFL MINGW64 /c/gymer/git-exercises-caleb (main)
+$ git commit -m "."
+
+user@LAPTOP-Q6O9PDFL MINGW64 /c/gymer/git-exercises-caleb (main)
+$ git commit -m "."
+user@LAPTOP-Q6O9PDFL MINGW64 /c/gymer/git-exercises-caleb (main)
+$ git commit -m "."
+$ git commit -m "."
+[main d6925e6] .
+ 1 file changed, 220 insertions(+)
+
+user@LAPTOP-Q6O9PDFL MINGW64 /c/gymer/git-exercises-caleb (main)
+$ git pull origin main
+From https://github.com/caleb-tuyisingize/git-exercises-caleb
+ * branch            main       -> FETCH_HEAD
+Auto-merging README.md
+CONFLICT (add/add): Merge conflict in README.md
+Automatic merge failed; fix conflicts and then commit the result.
+
+user@LAPTOP-Q6O9PDFL MINGW64 /c/gymer/git-exercises-caleb (main|MERGING)
+$ git add .
+
+user@LAPTOP-Q6O9PDFL MINGW64 /c/gymer/git-exercises-caleb (main|MERGING)
+$ git commit -m "."
+[main 1aa2079] .
+
+user@LAPTOP-Q6O9PDFL MINGW64 /c/gymer/git-exercises-caleb (main)
+$
 ```
